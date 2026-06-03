@@ -1,0 +1,15 @@
+# Ignore temporary swap files
+*.swp
+*.swo
+
+# Ignore logs
+*.log
+
+# Ignore the 'undo' and 'shada' history 
+# (These are usually stored in ~/.local/share/nvim, but just in case)
+undo/
+.netrwhist
+
+# DO NOT ignore lua/plugins/
+# DO NOT ignore lua/config/
+# DO NOT ignore init.lua
