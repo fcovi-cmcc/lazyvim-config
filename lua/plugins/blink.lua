@@ -4,7 +4,7 @@ return {
 
     -- Remap autocompletion keybind from ENTER to TAB
     keymap = {
-      preset = "none", -- We define our own to avoid conflicts
+      preset = "default", -- We define our own to avoid conflicts
 
       ["<Tab>"] = { "accept", "fallback" },
       ["<S-Tab>"] = { "select_prev", "fallback" },
@@ -12,8 +12,8 @@ return {
       -- These allow you to navigate the menu with arrows or Ctrl-n/p
       ["<C-p>"] = { "select_prev", "fallback" },
       ["<C-n>"] = { "select_next", "fallback" },
-      ["<Up>"] = { "select_prev", "fallback" },
-      ["<Down>"] = { "select_next", "fallback" },
+      ["<Up>"] = { "fallback" },
+      ["<Down>"] = { "fallback" },
 
       -- Disable Enter (CR) so it just creates a new line
       ["<CR>"] = { "fallback" },
