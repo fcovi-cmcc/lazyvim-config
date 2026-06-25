@@ -8,7 +8,7 @@ return {
       enabled = true,
       win = {
         position = "bottom", -- Opens at the bottom
-        height = 15,         -- YOUR REQUEST: Sets the default height to 15 lines
+        height = 10,         -- YOUR REQUEST: Sets the default height to 15 lines
       },
     },
     -- You can enable other cool Snacks features here too
